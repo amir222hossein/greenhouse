@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    direction: rtl;
+}
+.header{
+    background-color: honeydew;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+.header form{
+    width: 120px;
+    height: 30px;
+    
+    position: absolute;
+    left: 5%;
+    top: 25%;
+
+}
+.header  input{
+    background-color: green;
+    left: 5%;
+    color: white;
+    top: 25%;
+    position: absolute;
+    border-radius: 15px;
+    height: 30px;
+    box-shadow: 1px 2px 10px 0.5px green;
+    width: 120px;
+}
+
+.header p{
+    position: relative;
+    top: 35%;
+    right: 5%;
+    font-size: 20px;
+
+}
+.slider{
+    width: 75%;
+    height: 65%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url("http://sgh.gigfa.com/amir/images/baner1.jpg");
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px #cccccc;
+    animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-size: 100% 100%;
+    background-image: url("http://sgh.gigfa.com/amir/images/baner1.jpg");
+        
+    }
+    50%{
+        background-size: 100% 100%;
+        background-image: url("http://sgh.gigfa.com/amir/images/baner2.jpg");
+
+    }
+    100%{
+        background-size: 100% 100%;
+        background-image: url("http://sgh.gigfa.com/amir/images/baner3.jpg");
+
+    }
+
+}
