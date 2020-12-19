@@ -223,7 +223,7 @@ if (isset($_POST['submit'])) {
 		$day=$_POST['D19'];
 		$hours=$_POST['D15'];
 		if($mounth==10){
-				if($day==22){
+				if($day==11){
 
 							if ($hours > 2){
 								$sertime=$hours-2;
@@ -249,7 +249,7 @@ if (isset($_POST['submit'])) {
 								$MAXT=$objPHPExceltime->getActiveSheet()->getCell('V25')->getCalculatedValue().'<br />';
 						}
 					}
-				elseif($day==2){
+				elseif($day==13){
 
 						if ($hours > 2){
 							$sertime=$hours-2+48;
@@ -706,7 +706,7 @@ if (isset($_POST['submit'])) {
 	$day=$_POST['D19'];
 	$hours=$_POST['D15'];
 	if($mounth==10){
-			if($day==22){
+			if($day==11){
 
 						if ($hours > 2){
 							$sertime=$hours-2;
@@ -732,7 +732,7 @@ if (isset($_POST['submit'])) {
 							$MAXT=$objPHPExceltime->getActiveSheet()->getCell('V25')->getCalculatedValue().'<br />';
 					}
 				}
-			elseif($day==2){
+			elseif($day==13){
 
 					if ($hours > 2){
 						$sertime=$hours-2+48;
